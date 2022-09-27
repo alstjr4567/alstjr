@@ -1,0 +1,10 @@
+package class_;
+
+public class MemberService {
+	private MemberDTO[] ar = new MemberDTO[5]; //필드는 이것만
+	//필드이제 끝
+	
+	//아래부터 메소드만 설정
+	
+	
+}

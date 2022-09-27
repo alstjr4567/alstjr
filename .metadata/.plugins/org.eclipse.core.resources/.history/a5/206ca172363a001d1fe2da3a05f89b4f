@@ -1,0 +1,28 @@
+package method;
+
+public class Method01 {
+	
+	public static void main(String[] args) {
+		int a = 25,b=36; //지역변수, local variable main함수안에서만 사용가능
+		
+		Method01 m = new Method01(); //생성
+		int sum = m.sum2(25,36);
+		int sub = m.sub2(25,36);
+		int mul = m.mul2(25,36);
+		double div = m.div2(25,36);
+		
+		System.out.println(a+" + " + b + " = " + sum);
+		System.out.println(a+" + " + b + " = " + sub);
+		System.out.println(a+" + " + b + " = " + mul);
+		System.out.println(a+ " / "+b+"=  "+ String.format("%7.5f", div));
+		
+	}
+	public int add(int a,int b){// 구현 /main안에 같은 a는 다른 변수다 add의 a,b는 인수,매개변수라고함
+		//매개변수 함수의 가로안에 있는애들
+		return a+b;
+
+	}
+}
+/*
+
+*/

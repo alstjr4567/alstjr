@@ -1,0 +1,15 @@
+package 연습장;
+
+public class 연습장01 {
+
+	public static void main(String[] args) {
+		
+		int[] a = {10,20,30,40,50};
+		
+		for(int i =0;i<a.length;i++) {
+			System.out.println(a[i]);
+			
+		}
+		System.err.println(a);
+	}
+}

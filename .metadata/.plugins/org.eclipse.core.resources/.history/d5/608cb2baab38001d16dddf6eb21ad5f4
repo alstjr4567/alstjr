@@ -1,0 +1,25 @@
+package array;
+
+public class Array01 {
+	public static void main(String[] args) {
+		int i;
+		int[] ar; //배열 선언
+		ar = new int[5];//배열 생성
+		ar[0]=25;
+		ar[1]=78;
+		ar[2]=30;
+		ar[3]=43;
+		ar[4]=52;
+		
+		for(i=0;i<=4;i++) {
+			
+		System.out.println(ar[0] +"=" + ar[0]);
+		}
+		
+		
+	}
+}
+/*
+
+
+*/

@@ -1,0 +1,16 @@
+package while_;
+
+public class Dowhile {
+
+	public static void main(String[] args) {
+		//A B C D E ~~ X Y Z
+		char ch = 'A';
+		while(ch>=100) {
+			System.out.println(ch);
+			ch++;
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+package multi;
+
+import java.util.Scanner;
+
+public class MultiArray02 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int[][] ar = new int [10][10];
+		int num=0;
+		int i,j=0;
+
+		//입력
+//		for(i=0;i<ar.length;i++) {
+//			for(j=0;j<ar.length;j++) {
+//				num++;
+//				ar[i][j]=num;
+//			}
+//		}
+
+//		for(i=0;i<ar.length;i++) {
+//			for(j=0;j<ar.length;j++) {
+//				num++;
+//				ar[i][j]=num;
+//			}
+//		}
+		
+		for(int i=ar.length-1; i>=0;i--) {
+			for(int= j=ar[i].length-1;j>=0; j++) {
+				num++;
+				ar[i][j]=num;
+			}
+		}
+
+		//출력
+		for(i=0;i<ar.length;i++) {
+			for(j=0;j<ar.length;j++) {
+			}
+			System.out.println(String.format("%4d",ar[i][j]));
+		}
+		System.out.println();
+
+
+	}
+}

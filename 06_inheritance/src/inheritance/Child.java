@@ -1,0 +1,28 @@
+package inheritance;
+
+public class Child {
+public static void main(String[] args) {
+	protected String name;
+	protected int age;
+	
+	public Child() {
+		System.out.println("Child 기본 생성자");
+	}
+	public Child(String name, int age, double weight, double height){
+		super(weight,height);
+		System.out.println("Child 생성자(일반생성자)");
+		this.name=name;
+		this.age=age;
+		super.weight=height;
+		super.height=height;
+//		this.weight=weight;
+//		this.height=height;
+	}
+	public void disp() {
+		System.out.println("이름 ="+ name);
+		System.out.println("나이 = " + age );
+		System.out.println("몸무게 = " + weight );
+		System.out.println("키 = " + height );
+	}
+}
+}

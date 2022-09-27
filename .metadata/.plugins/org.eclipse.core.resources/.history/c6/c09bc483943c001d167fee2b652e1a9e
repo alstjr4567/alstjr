@@ -1,0 +1,15 @@
+package 연습장;
+
+public class 연습장01 {
+
+	public static void main(String[] args) {
+		
+		//double[] b = {1.1, 2.2, 3.2};
+		//double[] c = new double[]{1.1, 2.2, 3.2};
+		double[] b = new double[3];
+		b[0]=1.1;
+		b[1]=2.2;
+		b[2]=3.2;
+		System.out.println(b);
+	}
+}

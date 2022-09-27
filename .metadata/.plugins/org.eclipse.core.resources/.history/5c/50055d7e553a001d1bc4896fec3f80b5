@@ -1,0 +1,31 @@
+package method;
+
+public class Sungjuk {
+	private String name;
+	private int kor, eng, math, tot;
+	private double avg;
+	private char grade;
+	
+	public void setData(String n, int k, int e, int m) {//데이터 직접 못주기때문에 setData를통해서 전달가능
+		name = n;
+		kor = k;
+		eng =e;
+		math=m;
+		
+	public static void main(String[] args){
+		//4번째
+		tot = kor
+				
+		//4번째
+	}
+	System.out.println(aa.getName()+"\t"+
+						aa.getKor()+"\t"+
+						aa.getEng()+"\t"+
+						aa.getMath+"\t"+
+						aa.getTot()+"\t"+
+						aa.getAvg()+"\t"+
+						aa,getGrade());
+	
+	
+	}
+}

@@ -1,0 +1,19 @@
+package 연습장;
+class Strudent{
+	int x,y,z;
+	
+}
+public class 클래스_메서드겟셋 {
+
+	public static void main(String[] args) {
+		Strudent sd = new Strudent();
+		
+		sd.x=10;
+		sd.y=10;
+		sd.z=10;
+		
+				
+		
+	}
+
+}

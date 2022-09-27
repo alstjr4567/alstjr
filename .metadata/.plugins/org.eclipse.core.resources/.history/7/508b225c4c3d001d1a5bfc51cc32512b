@@ -1,0 +1,20 @@
+package inheritance;
+
+public class Sub extends Super {
+	protected String name;
+	protected int age;
+	
+	public Sub() {
+		System.out.println("Sub 기본 생성자");
+	}
+
+public static void main(String[] args) {
+	Sub aa = new Sub();
+	
+	
+	}
+}
+/*
+자식생성자 만들면 부모것까지 같이 만든다.
+
+*/

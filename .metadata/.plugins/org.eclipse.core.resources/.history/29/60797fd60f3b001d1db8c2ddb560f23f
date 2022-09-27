@@ -1,0 +1,25 @@
+package class_;
+
+
+public class VarArgs {
+	public VarArgs (int a) {
+		System.out.println("기본 생성자");
+		
+	}
+	private String sum(int i, int j, int k) {
+		
+		return null;
+	}
+	public static void main(String[] args) {
+		VarArgs va = new VarArgs(0);
+		
+		System.out.println("합= "+va.sum(10,20, 0));
+		System.out.println("합= "+va.sum(10,20,30));
+		System.out.println("합= "+va.sum(10,20,30));
+		
+	}
+}
+/*
+
+
+*/

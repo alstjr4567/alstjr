@@ -1,0 +1,52 @@
+package array;
+
+import java.util.Random;
+
+public class Array05 {
+
+   public static void main(String[] args) {
+      Random r = new Random();
+      char[] rand = new char[50];
+      char[] ar = new char[26];
+      
+      
+      for(int i=0;i<50;i++) {
+         rand[i] =(char)(r.nextInt(26) + 65);
+         System.out.print(rand[i]);
+         if((i+1)%10==0)
+            System.out.println();
+      }//for 
+      
+      System.out.println();
+      
+      for(int j=0;j<26;j++) {
+         
+         ar[j] = (char)(65+j);
+         int count = 0;
+         
+         for(int k=0;k<50;k++) {
+            if(ar[j] == rand[k]) {
+               count++;
+               }
+         }//for k
+         
+         System.out.println(ar[j]+ " : " + count + "개");
+      
+      }//for j
+         
+   }
+      
+      
+      
+
+}
+/*
+문제 로또
+돈을 입력받아서 난수가 자동으로 발생하는 프로그램
+
+[실행결과]
+현금 입력 : 7000
+난수로 자동으로 처리
+
+
+ */

@@ -1,0 +1,101 @@
+package inheritance;
+
+import java.util.Scanner;
+
+class ShapeTest {
+	protected double area;
+	protected Scanner sc = new Scanner(System.in);
+
+	public ShapeTest(){
+		System.out.println("ShapeTest 기본생성자");
+	}
+	public void calcArea() {
+		System.out.println("도형을 계산합니다.");
+	}
+	public void dispArea() {
+		System.out.println("도형을 출력합니다.");
+	}
+}
+
+//--------
+class SamTest extends ShapeTest{
+	protected int base,height,top;
+	
+	public SamTest() {
+		System.out.println("SamTest 기본생성자");
+		System.out.println("밑변 : ");
+		base = sc.nextInt();
+		System.out.println("높이 : ");
+		height = sc.nextInt();
+		
+	}
+	@Override
+	public void calcArea() {
+		area=base*height;
+	}
+	@Override
+	public void dispArea() {
+		System.out.println("삼각형 넓이 ="+area);
+	}
+}
+//---------
+class SaTest(){
+	
+}
+//---------
+class SadariTest(){
+	
+}
+//---------
+public class ShapeMain {
+
+
+	public void main(String[] args) {
+		
+		ShapeTest shape;
+		
+		SamTest sam = new  SamTest();// 부모 = 자식, 다형성
+		sam.calcArea();
+		sam.dispArea();
+		System.out.println();
+		
+		SaTest sa = new SaTest();
+		sa.calcArea();
+		sa.dispArea();
+		System.out.println();
+		
+		SadariTest sadari = new SadariTest();
+		sadari.calcArea();
+		sadari.dispArea();
+		System.out.println();
+		
+//		SaTest sa = ~~;
+//		
+//		System.out.println();
+//		
+//		SadariTest();
+		
+	}
+}
+
+
+public void calcArea() {
+	// TODO Auto-generated method stub
+	
+}
+public void calcArea() {
+	// TODO Auto-generated method stub
+	
+}
+public void dispArea() {
+	// TODO Auto-generated method stub
+	
+}
+public void calcArea() {
+	// TODO Auto-generated method stub
+	
+}
+public void dispArea() {
+	// TODO Auto-generated method stub
+	
+}

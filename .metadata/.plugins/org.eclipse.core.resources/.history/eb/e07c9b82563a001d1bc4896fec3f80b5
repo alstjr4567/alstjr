@@ -1,0 +1,14 @@
+package method;
+
+class str{
+	
+	
+}
+public class 성적 {
+
+	public static void main(String[] args) {
+		str s = null;
+		s = new str;
+	}
+
+}

@@ -1,0 +1,20 @@
+package inheritance;
+
+
+public class Super {
+	protected double weight, height;
+	
+	public double(double weight, double height) {
+		this.weight = weight;
+		this.height = height;
+	}
+	public void disp() {
+		System.out.println("몸무게 = "+weight);
+		System.out.println("키 = "+height);
+	}
+}
+
+/*
+protected 프로텍티드 상속 받으려면이렇게
+
+*/

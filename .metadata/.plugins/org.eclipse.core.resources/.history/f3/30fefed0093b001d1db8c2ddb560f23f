@@ -1,0 +1,20 @@
+package constructor;
+
+class Hello{
+	private String name;
+	private int age;
+	
+	public Hello() {
+		System.out.println("기본 생성자");
+		
+	}
+	
+}
+
+//-------
+public class ConstructorMain {
+		private void mian() {
+			Hello aa = new Hello();
+			
+		}
+}

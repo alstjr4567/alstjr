@@ -1,0 +1,46 @@
+package 연습장;
+
+import java.util.Scanner;
+
+public class 뉴 {
+
+	public static void main(String[] args) {
+		int studentNum,i;
+		int[] score = null;// 참조변수는 값이 없을때 null을 넣어준다 공간이 만을어 지지않아서
+		Scanner sc =new Scanner(System.in);
+		while(true) {
+			System.out.println("1.학생수| 2.점수입력| 3.점수리스트| 4.분석| 5.종료");
+			System.out.print("선택>");
+			int num = sc.nextInt();
+			
+			if(num == 1) {
+				System.out.print("1.학생수 입력>");
+				studentNum = sc.nextInt();
+				score = new int[studentNum];//학생수를 입력하면 학생수만큼 배열 방을만듦
+			}
+			else if(num ==2) {
+			System.out.println("2.점수입력");
+			if(score==null) {//null이면 아직 방이 만들어지기 전이니까 1번부터 하세요 컨티뉴하는것임
+			System.out.println("1번먼저 진행하세요");
+			continue;
+			}
+				for(i=0;i<score.length;i++) {
+					System.out.print("score["+i+"]>");
+					score[i]=sc.nextInt();//점수 입력! 해서 score의 각방에다 넣을수있도록 스캐너 사용
+							
+			}
+			}
+			else if(num ==3) {
+					System.out.println("3.점수리스트");
+					if(score==null) {//null이면 아직 방이 만들어지기 전이니까 1번부터 하세요 컨티뉴하는것임
+						System.out.println("1번먼저 진행하세요");
+						continue;//컨티뉴하면 첫번째 부터 다시
+					}
+					
+					
+		}
+		
+	}
+
+}
+}

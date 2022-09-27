@@ -1,0 +1,9 @@
+package 연습장;
+
+public class 클래스_메서드04 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

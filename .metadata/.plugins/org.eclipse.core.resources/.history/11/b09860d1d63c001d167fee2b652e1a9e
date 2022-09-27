@@ -1,0 +1,25 @@
+package 연습장;
+class Strudent{
+	int x,y,z;
+	
+	static int sdd(int x,int y,int z) {
+		return x*y*z;
+		
+	}
+	
+}
+public class 클래스_메서드겟셋 {
+
+	public static void main(String[] args) {
+		Strudent s1 = new Strudent();
+		s1.x=10;
+		s1.y=10;
+		s1.z=10;
+		
+		int a= s1.sdd(10, 20, 30);
+		System.out.println(a);
+				
+		
+	}
+
+}

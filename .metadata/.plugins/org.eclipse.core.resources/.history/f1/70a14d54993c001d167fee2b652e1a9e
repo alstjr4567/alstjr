@@ -1,0 +1,14 @@
+package 연습장;
+
+public class 연습장_배열02 {
+
+	public static void main(String[] args) {
+		int[] score = {79,88,91,33,100,55,95};
+		System.out.println(score.length);
+		
+		for(int i =0;i<score.length;i++) {
+			System.out.println(score[i]);
+		}
+	}
+
+}

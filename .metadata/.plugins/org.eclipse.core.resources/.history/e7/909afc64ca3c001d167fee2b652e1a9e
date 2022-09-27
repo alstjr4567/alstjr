@@ -1,0 +1,15 @@
+package 연습장;
+class Calculator{
+	
+	static int add(int a,int b) {
+		int sum=a+b;
+		return sum;
+	}
+}
+public class 클래스_메서드02 {
+
+	public static void main(String[] args) {
+		add(20,30);
+		
+	}
+}

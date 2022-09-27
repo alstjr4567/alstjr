@@ -1,0 +1,45 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class Exam {
+	private String name;
+	private String dap;
+	private char[] ox;
+	private int score;
+	
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDap() {
+		return dap;
+	}
+
+	public void setDap(String dap) {
+		this.dap = dap;
+	}
+
+	public char[] getOx() {
+		return ox;
+	}
+
+	public void setOx(char[] ox) {
+		this.ox = ox;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+}

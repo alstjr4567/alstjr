@@ -1,0 +1,22 @@
+package inheritance;
+class Test extends Object {
+	
+	@Override
+	public String toString() {
+		return"개바부";
+	}
+}
+public class ObjectMain {
+	public static void main(String[] args) {
+		Test t = new Test();
+		System.out.println("객체 t = "+t);
+		System.out.println("객체 t = "+t.toString());
+		System.out.println("객체 t = "+t.hashCode());//주소의 값을 나오게 하는것.
+		
+		
+	}
+}
+/*
+자바의 모든 클래스는 ObjectMain로 부터 상속받는다.
+
+*/

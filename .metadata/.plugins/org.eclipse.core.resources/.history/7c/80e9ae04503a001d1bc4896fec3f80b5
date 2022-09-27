@@ -1,0 +1,15 @@
+package method;
+
+public class Sungjuk {
+	private String name;
+	private int kor, eng, math, tot;
+	private double avg;
+	private char grade;
+	
+	public void setData(String n, int k, int e, int m) {//데이터 직접 못주기때문에 setData를통해서 전달가능
+		name = n;
+		kor = k;
+		eng =e;
+		math=m;
+	}
+}

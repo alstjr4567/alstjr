@@ -1,0 +1,8 @@
+package inheritance;
+
+public class Sub extends Super {
+public static void main(String[] args) {
+	
+	
+	}
+}

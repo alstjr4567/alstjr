@@ -1,0 +1,57 @@
+package method;
+
+import java.util.Scanner;
+
+public class SungjukMian {
+
+	public static void main(String[] args) {
+		int kor,eng,m;
+
+		//Student s = new Student(); 공간을 만드는작업 객체를 만든다
+		Student s = null ;//주소가들어가야하는데 아직어떤주소가 들어갈지 모르겟다.. 그럼 null을 넣는다
+		s = new Student();
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("국어점수:");
+		s.kor = sc.nextInt(); // 70
+
+		System.out.print("영어점수:");
+		s.eng = sc.nextInt(); // 80
+
+		System.out.print("수학점수:");
+		s.math = sc.nextInt(); //90
+
+		//int hap = s.sum(kor, eng, m);
+		int hap = s.sum();
+		System.out.println("hap:" + hap);
+
+		int avg = s.avg(); 
+		System.out.println("avg:" + avg);
+		
+		
+	}
+}
+/*
+[문제] 성적처리
+클래스명 : SungJuk
+필드 : name, kor, eng, math, tot, avg, grade
+메소드 : setData(이름, 국어, 영어, 수학)
+       calc() - 총점, 평균, 학점 계산
+      getName()
+      getKor()
+      getEng()
+      getMath()
+       getTot()
+       getAvg()
+       getGrade()
+
+클래스명 : SungJukMain
+
+[실행결과]
+----------------------------------------------------
+이름      국어      영어      수학      총점      평균      학점
+----------------------------------------------------
+홍길동   90      95      100
+
+ */

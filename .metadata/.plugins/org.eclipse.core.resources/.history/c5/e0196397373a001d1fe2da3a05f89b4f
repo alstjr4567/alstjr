@@ -1,0 +1,21 @@
+package method;
+
+public class Method02 {
+	
+	public void disp() {
+		System.out.println("static method");
+	}
+	
+	public static void  output() { //구현
+		System.out.println("static method");
+	}
+	
+	private static void mian() {
+		
+	}
+	
+}
+/*
+
+
+*/

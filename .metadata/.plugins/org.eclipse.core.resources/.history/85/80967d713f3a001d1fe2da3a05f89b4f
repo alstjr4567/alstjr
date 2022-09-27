@@ -1,0 +1,16 @@
+package class_;
+class Person{
+	String name;
+	
+}
+//------------------
+public class PersonMain {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
+/*
+
+*/

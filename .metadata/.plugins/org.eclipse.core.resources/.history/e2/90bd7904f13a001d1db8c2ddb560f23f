@@ -1,0 +1,24 @@
+package class_;
+
+import java.util.Scanner;
+
+public class ComputeMain {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Compute c = new Compute();
+		
+		
+		
+		System.out.print("x 입력 :");
+		int a = sc.nextInt();
+		System.out.print("y 입력 :");
+		int b = sc.nextInt();
+		c.setX(a); //setX로 전달
+		c.setY(b); //setY로 전달
+		System.out.println(c.getX());
+		System.out.println(c.getY());
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package method;
+
+class sr{
+	
+}
+public class 연습장 {
+
+	public static void main(String[] args) {
+		sr s = null ;
+		s=new sr;
+	}
+
+}

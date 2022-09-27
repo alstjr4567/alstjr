@@ -1,0 +1,32 @@
+package 연습장;
+
+import java.util.Scanner;
+
+class Strudent{
+	int kor,eng,math;
+	
+	static int sum(int kor,int eng,int math) {
+		return kor+eng+math;
+		
+	}
+	 
+}
+public class 클래스_메서드03 {
+
+	public static void main(String[] args) {
+		int kor,eng,math;
+		Strudent s1=null;
+		s1 = new Strudent();
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("국어 점수 : ");
+		kor=sc.nextInt();
+				
+		System.out.println("영어 점수 : ");
+		eng=sc.nextInt();
+		
+		System.out.println("수학 점수 : ");
+		math=sc.nextInt();
+	}
+
+}

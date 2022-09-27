@@ -1,0 +1,16 @@
+package class_;
+
+//1인분
+public class MemberDTO {
+	private String name;
+	private int age;
+	private String phone;
+	private String address;
+	
+	public MemberDTO(String n,int a,String p,String a) {//생성자
+		
+	}
+}
+/*
+숙제
+*/

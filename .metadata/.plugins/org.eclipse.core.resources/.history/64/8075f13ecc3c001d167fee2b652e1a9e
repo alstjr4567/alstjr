@@ -1,0 +1,21 @@
+package 연습장;
+class Calculator{
+	int x;
+	int y;
+	
+	static int add(int a,int b) {
+		return a+b;//바로 리턴해도됨 변수에 안담아도 됨
+	
+	}
+}
+public class 클래스_메서드02 {
+
+	public static void main(String[] args) {
+		//add(10,20);  
+		Calculator c1 = new Calculator();  
+		c1.x=100;
+		c1.y=200;
+		System.out.println(c1.x);
+		System.out.println(c1.y);
+	}
+}

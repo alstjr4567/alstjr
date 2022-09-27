@@ -1,0 +1,22 @@
+package method;
+
+public class Method02 {
+	
+	public void disp() {
+		System.out.println("non-static method");
+	}
+	
+	public static void  output() { //구현
+		System.out.println("static method");
+		
+	}
+	
+	private static void mian(String[] args) {
+		Method02.output();//호출 Method02에있는 output메서드 호출
+	}
+	
+}
+/*
+
+
+*/

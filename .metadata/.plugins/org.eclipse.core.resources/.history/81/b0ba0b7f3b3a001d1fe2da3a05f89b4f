@@ -1,0 +1,63 @@
+class Person{//이름 내맘대로,종류다른것 여러가지가 다들어간다,클래스이름은 대문자로 하자 약속함
+	String name;//멤버변수, instance변수
+	int age;
+	double height;
+	static String nation; //여러객체가 공유해서 쓰고싶을때 앞에static을 붙인다
+	
+	Person(){//생성자
+		System.out.println("Person 생성자");
+	}
+}//
+
+
+
+public class zz {
+
+	public static void main(String[] args) {
+
+//		String name="아이유";
+//		int a = 10;
+//		a=20;//변수에는 자료 1개 밖에 못들어감 이렇게하면 a10말고 a20만 들어감
+//		double b=12.34;
+//		char c = 'X';
+		//new Person(); 이렇게 써줘야 내가만든 클래스의 공간이 생긴다.
+		//Person(객체=instance 를 만들엇다)
+		
+		Person p1 = new Person();//펄슨 객체만드세요 하면 이렇게 만들면됨.
+		//
+		p1.name="윤아"; //접근할때는 참조변수.멤버변수
+		p1.age=30;
+		p1.height =159.7;
+		p1.nation="대한민국";
+		//객체를 만들지 않아도 nation생긴다 클래스이름이 한번 나오기만해도 변수가생김
+				//내가만든 객체로 2공간(Person p1,Person p2)을 만듦.
+				
+		Person p2 = new Person();
+		p2.name = "박보검";
+		p2.age=23;
+		p2.height=189.3;
+				
+		System.out.println(p1.name);
+		System.out.println(p1.age);
+		System.out.println(p1.height);
+		System.out.println(p1.nation);
+		System.out.println(Person.nation);
+		//공용어라p1.nation,.p2 nation이렇게 해도되지만
+		//이렇게하는거보다 Person.nation이런식으로 접근해야함.static변수는 클래스이름으로 접근해야 안전
+		// static변수,클래스변수 라고도 한다.
+		
+		System.out.println(p2.name);
+		System.out.println(p2.age);
+		System.out.println(p2.height);
+		System.out.println(p2.nation);
+		System.out.println(Person.nation);
+	}
+}
+
+/*
+여러가지를 넣을 수있는 변수를 만들려면 자료형은 어떻게 해야할까?
+기본자료형에는 이런게없다 우리가 만들어쓸수잇다.
+내가만들어쓰는 자료형을 클래스라고 한다
+클래스 : 사용자 정의 자료형 **자바에선 클래스가 아주중요하다
+
+ */

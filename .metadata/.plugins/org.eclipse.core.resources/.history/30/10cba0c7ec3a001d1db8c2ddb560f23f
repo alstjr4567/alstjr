@@ -1,0 +1,26 @@
+package class_;
+
+class This{
+	public int a;
+	
+	public void setA(int a) {
+		a = a;
+	}
+	public int getA() {
+		return a; //내보내는 값
+	}
+}
+//-------------
+public class ThisMain {
+
+	public static void main(String[] args) {
+		This t = new This();
+		t.setA(10);//10을 set으로 전달
+		System.out.println(t.getA());
+		
+		
+	}
+}
+/*
+
+*/

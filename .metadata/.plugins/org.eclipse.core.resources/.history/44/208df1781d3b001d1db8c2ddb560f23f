@@ -1,0 +1,6 @@
+package class_;
+
+//1인분
+public class MemberDTO {
+
+}

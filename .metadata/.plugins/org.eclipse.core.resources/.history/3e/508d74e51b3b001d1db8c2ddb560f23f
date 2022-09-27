@@ -1,0 +1,60 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class Exam {
+	private static final String JUNG = null;
+	String name;
+	private String dap;
+	private char[] ox = new char[5];
+	private int score;
+	
+
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getDap() {
+		return dap;
+	}
+	public void setDap(String dap) {
+		this.dap = dap;
+	}
+	public char[] getOx() {
+		return ox;
+	}
+	public void setOx(char[] ox) {
+		this.ox = ox;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public void JUNG() {
+		
+	}
+	public Exam() {
+		ox = new char[5];
+		
+		Scanner sc = new Scanner(System.in);
+	}
+	public void compare() { //배열 크기 =>배열.length()
+		for(int i=0; i<dap.length();i++) {//문자열 크기 =>문자열.length()
+			if(dap.charAt(i)==JUNG.charAt(i)) {
+				ox[i]='O';
+				
+			}
+		}
+		public String getName() {
+			return name;
+		}
+		public char 
+		
+	
+	}
+
+}

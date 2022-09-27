@@ -1,0 +1,40 @@
+package 연습장;
+
+import java.util.Scanner;
+
+class Strudent{
+	int kor,eng,math;
+	
+	static int sum(int kor,int eng,int math) {
+		return kor+eng+math;
+		
+	}
+}
+public class 클래스_메서드03 {
+
+	public static void main(String[] args) {
+		int k,e,m;
+		
+		Strudent s1=null;
+		s1 = new Strudent();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("국어 점수 : ");
+		k=sc.nextInt();
+				
+		System.out.println("영어 점수 : ");
+		e=sc.nextInt();
+		
+		System.out.println("수학 점수 : ");
+		m=sc.nextInt();
+		
+		int i = s1.sum(k, e, m);
+		
+		System.err.println("총합 : "+i);
+	
+		int hap = s.sum(kor,eng,m);
+		System.out.println("hap : "+hap);
+		
+	}
+}

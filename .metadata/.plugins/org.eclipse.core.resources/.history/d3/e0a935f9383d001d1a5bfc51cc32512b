@@ -1,0 +1,29 @@
+package class_;
+
+import java.util.Scanner;
+
+public class MemberService {
+	private MemberDTO[] ar = new MemberDTO[5]; //필드는 이것만
+	
+	public void  menu() {
+		Scanner sc = new  Scanner(System.in);
+		int num;
+		
+		while(true) {
+			System.out.println("*************");
+			System.out.println("   1. 가입");
+			System.out.println("   2. 출력");
+			System.out.println("   3. 수정");
+			System.out.println("   4. 탈퇴");	
+			System.out.println("   5. 끝내기");	
+			System.out.println("*************");
+			System.out.print("  번호 : ");
+			num = sc.nextInt();
+					
+			if(num == 5)break;// while을 벗어나라
+			
+		}//while
+	}//menu
+	
+	
+}

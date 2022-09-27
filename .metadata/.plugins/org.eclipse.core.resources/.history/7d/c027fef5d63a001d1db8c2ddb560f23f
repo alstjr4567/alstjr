@@ -1,0 +1,15 @@
+package method;
+
+class str{
+	private int kor, eng, math, tot;
+	private String name;
+	private double avg;
+	private char grade;
+	
+	setData(){
+		
+	}
+}
+public class SungJuk_02 {
+
+}

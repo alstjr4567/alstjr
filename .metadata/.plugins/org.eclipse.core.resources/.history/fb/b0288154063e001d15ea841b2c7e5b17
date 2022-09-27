@@ -1,0 +1,33 @@
+package class_2;
+
+public class ClassMain {
+
+	public static void main(String[] args) {
+		String a = "apple"; //literal 생성
+		String b = "apple";
+		if(a==b)System.out.println("a와 b의 참조값은 같다");
+		else System.out.println("a와 b의 참조값은 다르다");
+		if(a.equals(b))System.out.println("a와 b의 문자열은 같다");
+		else System.out.println("a와 b의 문자열은 다르다");
+		System.out.println();
+		
+		String c =new String("apple");
+		String d =new String("apple");
+		if(a==b)System.out.println("c와 d의 참조값은 같다");
+		else System.out.println("c와 d의 참조값은 다르다");
+		if(a.equals(b))System.out.println("c와 d의 문자열은 같다");
+		else System.out.println("a와 b의 문자열은 다르다");
+		System.out.println();
+		
+	}
+}
+/*
+heap(힙)영역이 잡힘.
+- 이름부여(x), 주소
+- 생성,삭제(는 jvm)
+
+싱글톤 중요
+싱글톤의 가장 대표적인 게 String이다
+db할땐 
+
+*/

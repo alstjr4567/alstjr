@@ -1,0 +1,14 @@
+package method;
+
+public class osw {
+
+	public static void main(String[] args) {
+		String[] me = {"최진혁","최유빈","한아람"};
+		for(int i = 0;i<me.length;i++) {
+			String mm = me[i];
+			System.out.println(mm);
+		}
+		
+	}
+
+}

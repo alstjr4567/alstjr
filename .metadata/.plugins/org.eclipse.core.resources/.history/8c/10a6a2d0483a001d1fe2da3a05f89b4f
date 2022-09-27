@@ -1,0 +1,29 @@
+package method;
+
+public class Sungjuk {
+	private String name;
+	private int age;
+
+	int kor;
+	int eng; // 멤버변수
+	int math;
+	int avg;
+	int tot;
+	int grade;
+	
+	//정수 3개담을수있는 자료형만들었다. class로 만든다.
+
+	//합계를 리턴하는 sum 메서드
+	//	int sum(int k,int e,int m){
+	//		return k + eng + m;
+	//	}
+
+	int sum(){ // 매개변수
+		return kor + eng + math;
+	}
+
+	int avg(){ // avg 정의
+		//return (kor+eng+math)/3;
+		return sum() / 3;
+	}
+}

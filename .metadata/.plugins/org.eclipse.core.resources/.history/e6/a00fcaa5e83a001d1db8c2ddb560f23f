@@ -1,0 +1,27 @@
+package class_;
+
+public class SungJukMian_02 {
+	public static void main(String[] args) {
+		int a=10;
+		int b=10;
+		int c=10;
+		
+		int[] ar = {3}; //0~2번째방으로 관리
+		ar[0] = 10;
+		//-------------
+		
+		SungJuk aa = new SungJuk(); //객체
+		SungJuk bb = new SungJuk();
+		SungJuk cc = new SungJuk();
+		
+		SungJuk[] ar = new SungJuk[3]; //객체 배열
+		ar[0] = new SungJuk();
+		ar[1] = new SungJuk();
+		ar[2] = new SungJuk();
+		
+	}
+}
+/*
+
+
+*/

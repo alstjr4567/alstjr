@@ -1,0 +1,6 @@
+package class_;
+
+public class MemberService {
+	private MemberDTO[] ar = new MemberDTO[5];
+	
+}

@@ -1,0 +1,14 @@
+package 연습장;
+class Book{
+	String title;
+	String author;
+	int price;
+}
+public class 클래스_메서드04 {
+
+	public static void main(String[] args) {
+		
+		Book bk1
+		
+	}
+}
